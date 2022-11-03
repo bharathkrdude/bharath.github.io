@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    color: #fff;
+    
+    
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #0f171e;
+    text-size-adjust: 100%;
+    /* position: fixed; */
+}
+nav{
+    padding: 8px 16px; 
+    margin: 5px;
+    margin: 0;
+    /* background-color: green; */
+}
+.logo1{
+    background-position: left 0;
+    height: 40px;
+    position: relative;
+    top: 9px;
+    width: 135 px;
+    padding-left: 60px;
+    float: left;
+    
+    
+}
+.navmenu{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rightnavbar{
+    margin-left: 300px;
+}
+.s-11{
+   margin-top:5px;
+   margin-left: 20px;
+
+}
+.s-12{
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+ul{
+    float: left;
+    
+}
+.menu{
+    margin-left: 30px;
+}
+ul li{
+    display: inline-block;
+    margin: 8px;
+    padding: 0;
+    width: auto;
+
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.btn{
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #0f79af;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    
+}
+
+.micons{
+    margin-left: 200px;
+   
+    
+}
+#a1{
+    background-image: url(./photos/MLP.jpg);
+    width:100%;
+    height: 580px;
+    
+}
+#a2{
+    background-image: url(/photos/TVOD_MLP_Right2.jpg);
+    
+    
+    width:100%;
+    height: 580px;
+    margin: auto;
+
+}
+.a-1{
+    padding: 100px;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    width: 50%;
+}
+.a-2{
+    padding: 100px;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    width: 50%;
+
+}
+.rentbtn{
+    margin-top: 20px;
+}
+.page-c{
+    padding: 100px;
+    padding-left: 700px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    width:50%;
+}
+h1{
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+}
+.p1b1{
+    display: flex
+}
+#p1button{
+    margin-top:x;
+}
+.rentbtn{
+    padding: 16px;
+    padding-left: 100px;
+    padding-right: 106px;
+    background-color: #0f79af;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.pageatext{
+    width: 50%;
+    padding: 50px;
+}
+.page-b{
+    display: grid;
+    grid-template-columns: 55% 45%;
+   
+    width: auto;
+    height: 540px;
+    color: #0f171e;
+    text-align: left;
+    text-decoration: none;
+}
+.pagebtext{
+    padding: 100px;
+    padding-left: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: black;
+    font-size: 24px;
+    width: 50%;
+
+}
+
+.pagebphotos{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page-c{
+    width: 100%;
+    height: 590px;
+    color: #fff;
+
+
+}
+.page-d{
+    padding-left: 10px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+.pagedtext{
+    padding-top: 50px;
+    text-align: center;
+    width: 50%;
+}
+.footer-1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+footer{
+    background-color: #222;
+}
+.footer-1{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blue{
+    color: #0f79af;
+}
+.black{
+    color: rgb(138, 132, 132);
+}
